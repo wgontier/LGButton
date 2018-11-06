@@ -336,7 +336,7 @@ public class LGButton: UIControl {
     
     // MARK: - Overrides
     // MARK:
-    override init(frame: CGRect) {
+    @objc public override init(frame: CGRect) {
         super.init(frame: frame)
         xibSetup()
         setupView()
